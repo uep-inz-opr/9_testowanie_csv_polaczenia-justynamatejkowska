@@ -23,8 +23,4 @@ class Polaczenia:
     return max(self.dane_słownik.items(), key= lambda x: x[1])
 
 if __name__ == "__main__":
-  nazwa_pliku = input()
-  mp = Polaczenia(input)
-  wynik = mp.pobierz_najczesciej_dzwoniacego()
-
-  print (wynik)
+    print(Polaczenia(input()).pobierz_najczesciej_dzwoniacego())
