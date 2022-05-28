@@ -1,3 +1,6 @@
+import csv
+
+
 class Polaczenia:
   def __init__(self, nazwa_pliku):
     self.nazwa_pliku = nazwa_pliku
